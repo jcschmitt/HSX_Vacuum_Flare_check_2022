@@ -1,0 +1,4 @@
+[hsx_7cm_wall:torosurf]
+filename: hsx_7cm_wall.txt
+stellarator_symmetry: True
+units: m

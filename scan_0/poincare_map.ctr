@@ -1,0 +1,13 @@
+#Sample poincare_map.ctr
+[FLARE]
+model: HSX_Vacuum_2022
+fieldline.epsabs: 1.0e-10
+[poincare_map_Rlinspace]
+R_start: 1.405
+R_end: 1.505
+NR: 72
+nsym: 4
+nsections: 4
+bounded: False
+npoints: 1000
+

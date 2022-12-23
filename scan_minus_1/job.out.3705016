@@ -1,0 +1,135 @@
+
+================================================================================
+ FLARE - The Field Line Analysis and Reconstruction Engine
+
+   - Parallelization with 72 processes
+
+ [92mmaster[0m (2022-04-25 09:30:32 -0500 [94m20b59e[0m)
+================================================================================
+ Boundary setup (divertor targets, first wall, limiters):
+
+   - torosurf_label
+        Number of nodes: 46 x 301
+
+
+================================================================================
+ Non-axisymmetric (3D) equilibrium:
+
+   - Vector potential from BMW: bmw_hsx.nc
+        cylindrical grid with 121 x 121 x 100 nodes, toroidal symmetry: 4
+        radial domain:      0.800 m ->    1.600 m
+        vertical domain:   -0.400 m ->    0.400 m
+
+
+   - Toroidal and poloidal field direction:    +  +
+
+================================================================================
+================================================================================
+ Generating Poincare maps ...
+
+   - Direction: forward
+        reference position: .000 deg
+        toroidal symmetry:  4
+
+   - Radial domain: R = 1.4050 -> 1.5050 m with 72 points at Z0 = .000 m and phi0 = .00 deg
+
+         56:   Lc >     1956.37 m    with 1024 points
+         55:   Lc >     1956.67 m    with 1024 points
+         54:   Lc >     1956.97 m    with 1024 points
+         57:   Lc >     1956.06 m    with 1024 points
+         58:   Lc >     1955.78 m    with 1024 points
+         53:   Lc >     1957.27 m    with 1024 points
+         59:   Lc >     1955.58 m    with 1024 points
+         52:   Lc >     1957.56 m    with 1024 points
+         60:   Lc >     1955.40 m    with 1024 points
+         61:   Lc >     1955.12 m    with 1024 points
+         51:   Lc >     1957.87 m    with 1024 points
+          2:   Lc >     1958.09 m    with 1024 points
+         62:   Lc >     1954.72 m    with 1024 points
+          1:   Lc >     1957.68 m    with 1024 points
+         50:   Lc >     1958.20 m    with 1024 points
+         63:   Lc >     1954.54 m    with 1024 points
+         49:   Lc >     1958.57 m    with 1024 points
+          0:   Lc >     1957.27 m    with 1024 points
+          3:   Lc >     1958.49 m    with 1024 points
+          4:   Lc >     1958.85 m    with 1024 points
+         64:   Lc >     1954.16 m    with 1024 points
+         48:   Lc >     1958.95 m    with 1024 points
+         65:   Lc >     1953.91 m    with 1024 points
+          5:   Lc >     1959.27 m    with 1024 points
+         47:   Lc >     1959.33 m    with 1024 points
+         67:   Lc >     1953.47 m    with 1024 points
+         46:   Lc >     1959.64 m    with 1024 points
+         66:   Lc >     1953.74 m    with 1024 points
+          6:   Lc >     1959.84 m    with 1024 points
+         68:   Lc >     1953.10 m    with 1024 points
+         45:   Lc >     1959.91 m    with 1024 points
+         69:   Lc >     1953.19 m    with 1024 points
+         44:   Lc >     1960.28 m    with 1024 points
+         70:   Lc >     1952.81 m    with 1024 points
+          7:   Lc >     1960.36 m    with 1024 points
+         71:   Lc >     1952.72 m    with 1024 points
+         43:   Lc >     1960.63 m    with 1024 points
+          8:   Lc >     1960.83 m    with 1024 points
+         42:   Lc >     1961.09 m    with 1024 points
+         41:   Lc >     1961.44 m    with 1024 points
+          9:   Lc >     1961.47 m    with 1024 points
+         40:   Lc >     1961.87 m    with 1024 points
+         39:   Lc >     1962.38 m    with 1024 points
+         11:   Lc >     1962.77 m    with 1024 points
+         38:   Lc >     1963.21 m    with 1024 points
+         37:   Lc >     1963.21 m    with 1024 points
+         12:   Lc >     1963.76 m    with 1024 points
+         10:   Lc >     1962.14 m    with 1024 points
+         36:   Lc >     1964.21 m    with 1024 points
+         35:   Lc >     1965.06 m    with 1024 points
+         13:   Lc >     1964.96 m    with 1024 points
+         34:   Lc >     1965.94 m    with 1024 points
+         14:   Lc >     1967.47 m    with 1024 points
+         31:   Lc >     1967.34 m    with 1024 points
+         32:   Lc >     1967.65 m    with 1024 points
+         30:   Lc >     1967.74 m    with 1024 points
+         33:   Lc >     1968.03 m    with 1024 points
+         18:   Lc >     1966.44 m    with 1024 points
+         19:   Lc >     1967.65 m    with 1024 points
+         16:   Lc >     1966.63 m    with 1024 points
+         15:   Lc >     1966.85 m    with 1024 points
+         29:   Lc >     1967.32 m    with 1024 points
+         17:   Lc >     1967.01 m    with 1024 points
+         20:   Lc >     1966.36 m    with 1024 points
+         21:   Lc >     1969.76 m    with 1024 points
+         23:   Lc >     1970.87 m    with 1024 points
+         28:   Lc >     1975.44 m    with 1024 points
+         25:   Lc >     1970.95 m    with 1024 points
+         22:   Lc >     1971.46 m    with 1024 points
+         24:   Lc >     1970.79 m    with 1024 points
+         26:   Lc >     1971.48 m    with 1024 points
+         27:   Lc >     1972.91 m    with 1024 points
+
+ Finished task execution: 32.766 s
+================================================================================
+
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: jsch(30228)
+Job name:  test_slurm
+Node list: ravc3385
+Job start: Thu Dec 22 03:07:52 CET 2022
+Job end:   Thu Dec 22 03:08:37 CET 2022
+Work dir:  /u/jsch/DATABASE/flare/HSX_Vacuum_2022/./
+Command:   /raven/u/jsch/DATABASE/flare/HSX_Vacuum_2022/slurm_clean_1.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID           JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode 
+------------ ---------- ------ ------ ------ ------------ ------------ ---------- -------- 
+3705016      test_slurm      1           144                             00:00:45      0:0 
+  
